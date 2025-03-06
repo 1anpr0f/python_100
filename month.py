@@ -1,12 +1,6 @@
 import calendar
- 
- 
 year = 2025
- 
-print ("select month: ")
-
-clas = input()
+clas = input("please select month:")
 month = int(clas)
-
 x = calendar.month(year,month)
 print(x)
